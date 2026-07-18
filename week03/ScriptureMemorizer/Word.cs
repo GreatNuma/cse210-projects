@@ -19,14 +19,9 @@ public class Word
 
     public string GetDisplayText()
     {
+        // If hidden, return an underscore string exactly matching the original word length
         if (_isHidden)
         {
-            // Retain punctuation marks if they exist at the end of a word
-            char lastChar = _text[^1];
-            if (char.IsPunctuation(lastChar))
-            {
-                return new string('_', _text.Length - 1) + lastChar;
-            }
             return new string('_', _text.Length);
         }
         return _text;
