@@ -47,7 +47,7 @@ namespace Mindfulness
             Console.WriteLine("---------------------------------------");
             Console.WriteLine($" Total Mindfulness Time: {_totalSecondsSpent} seconds");
             Console.WriteLine("=======================================\n");
-            Console.WriteLine("Press Enter to return to the main menu...");
+            Console.WriteLine("Please press Enter to return to the main menu...");
             Console.ReadLine();
         }
     }

@@ -3,7 +3,7 @@ using System;
 namespace Mindfulness
 {
     // =========================================================================================
-    // MY EXCEEDING REQUIREMENTS DESCRIPTION:
+    // THIS IS MY EXCEEDING REQUIREMENTS DESCRIPTION:
     // 1. Session Activity Tracker (ActivityLog.cs): Maintained an in-memory session log that tracks
     //    the frequency and total duration (in seconds) spent across all activities during the run,
     //    accessible via option 4 in the main menu.

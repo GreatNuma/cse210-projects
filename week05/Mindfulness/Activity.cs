@@ -29,7 +29,7 @@ namespace Mindfulness
             Console.Write("How long, in seconds, would you like for your session? ");
             while (!int.TryParse(Console.ReadLine(), out _duration) || _duration <= 0)
             {
-                Console.Write("Please enter a valid positive integer for duration: ");
+                Console.Write("Please enter a valid positive integer for your duration: ");
             }
 
             Console.Clear();
