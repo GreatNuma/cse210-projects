@@ -14,7 +14,7 @@ namespace YouTubeVideos
             Video video1 = new Video("C# Abstraction Explained in 10 Minutes", "Tech Academy", 600);
             video1.AddComment(new Comment("Sarah", "Great explanation of abstraction!"));
             video1.AddComment(new Comment("Naomi", "This made C# classes so easy to understand."));
-            video1.AddComment(new Comment("Ralphael", "Can you make a video on encapsulation next?"));
+            video1.AddComment(new Comment("Ralph", "Can you make a video on encapsulation next?"));
             videos.Add(video1);
 
             // ==================== VIDEO 2 ====================

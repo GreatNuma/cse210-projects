@@ -23,7 +23,7 @@ namespace YouTubeVideos
             _comments.Add(comment);
         }
 
-        // Required method: Returns the total count of comments for this video
+        // Required method: Returns the total count of comments for the video
         public int GetCommentCount()
         {
             return _comments.Count;

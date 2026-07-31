@@ -1,6 +1,6 @@
 namespace YouTubeVideos
 {
-    // The Comment class tracks the name of the person and their comment text
+    // The Comment class tracks the name of the person also their comment text
     public class Comment
     {
         private string _commenterName;
