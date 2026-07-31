@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace OnlineOrdering
 {
-    // The Order class manages product lists, calculates shipping fees, and generates labels
+    // This Order class manages product lists, calculates shipping fees, and generates labels
     public class Order
     {
         private List<Product> _products;

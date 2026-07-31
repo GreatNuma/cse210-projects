@@ -1,6 +1,6 @@
 namespace OnlineOrdering
 {
-    // The Product class tracks pricing metrics and calculates total item cost
+    // This Product class tracks pricing metrics and calculates total item cost
     public class Product
     {
         private string _name;

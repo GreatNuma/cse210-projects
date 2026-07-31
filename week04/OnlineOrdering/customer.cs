@@ -1,6 +1,6 @@
 namespace OnlineOrdering
 {
-    // The Customer class encapsulates customer details and delegates address checks
+    // This Customer class encapsulates customer details and delegates address checks
     public class Customer
     {
         private string _name;

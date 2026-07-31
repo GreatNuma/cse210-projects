@@ -15,7 +15,7 @@ namespace OnlineOrdering
             order1.AddProduct(new Product("Vertical Mouse", "MSE-202", 30.50, 2));
 
             // ==================== ORDER 2 (International Customer - $35 Shipping) ====================
-            Address address2 = new Address("12 Ahmadu Bello Way", "Abuja", "FCT", "Nigeria");
+            Address address2 = new Address("13 Ahmadu Bello Way", "Abuja", "FCT", "Nigeria");
             Customer customer2 = new Customer("Great Numa", address2);
             Order order2 = new Order(customer2);
 

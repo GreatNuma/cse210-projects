@@ -1,6 +1,6 @@
 namespace OnlineOrdering
 {
-    // The Address class encapsulates location attributes and logic
+    // This Address class encapsulates location attributes and logic
     public class Address
     {
         private string _streetAddress;
